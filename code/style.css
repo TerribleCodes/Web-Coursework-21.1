@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(128, 207, 118),rgb(133, 130, 130));
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    color:#fff;
+}
+.logo{
+    width: 120px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    border: 2px solid white;
+    padding: 6px 25px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.img1{
+    max-width: 140%;
+    height: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0%;
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-top: 30px;
+}
+.col-2{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-top: 30px;
+}
+h1{
+    padding-top: 10%;
+}
+.learn-button{
+    border: solid white;
+    border-radius: 30px;
+    margin-left: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
