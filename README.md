@@ -38,7 +38,7 @@ Creating a website for the economic community to achieve their targets with the 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
-Madawa De Silva - [@R4reLime](https://twitter.com/R4reLime) - https://github.com/GambitJr /
+Madawa De Silva - [@R4reLime](https://twitter.com/R4reLime) - https://github.com/GambitJr  
 Gishen Boraluwa - 
 
 Project Link: [https://github.com/GambitJr/Web-Coursework-21.1](https://github.com/GambitJr/Web-Coursework-21.1)
