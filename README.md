@@ -17,7 +17,7 @@
 
 
 ## About The Project
-Creating a website for the economic community to achieve their targets with the help of the concept sustainable development is the basic summary of this project. In fact, developing a website under the goal of “Decent work and Economic Growth”.
+Creating a website for the economic community to achieve their targets with the help of the concept sustainable development is the basic summary of this project. The 8th goal of SDG which is "Decent Work and Economic Growth" is used throughout the project and its contents. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
