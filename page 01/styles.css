@@ -118,8 +118,8 @@
     }
     .navbar__toggle .bar{
         width: 25px;
-        height: 2px;
-        margin: 5px auto;
+        height: 4px;
+        margin: 6px auto;
         transition: all 0.3 ease-in-out;
         background: white;
     }
@@ -165,7 +165,7 @@
 /*hero section*/
 .main{
     background-color: #a11a3b;
-    padding: 8rem 0;
+    padding: 3.3rem 0;
 }
 .main__container{
     display: grid;
@@ -207,17 +207,67 @@
 
 .main__img--card{
     margin: 10px;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
     background-image: linear-gradient(to right, #1f0e38 0%,#1f0e38);
+    align-items: center;
+}
+.kenburns-right{
+    width: 12rem;
+    height: 12rem;
+    
+} 
+
+  .scale-in-center {
+	animation: scale-in-center 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
-/* .img-2{
-    width: 16rem;
-    height: 16rem;
-} */
+@keyframes scale-in-center {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  } 
+  .kenburns-right {
+	-webkit-animation: kenburns-right 0.8s ease-out 0.2s both;
+	        animation: kenburns-right 0.8s ease-out 0.2s both;
+}
+@-webkit-keyframes kenburns-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 50%;
+              transform-origin: 84% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateX(20px);
+              transform: scale(1.25) translateX(20px);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+  @keyframes kenburns-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 50%;
+              transform-origin: 84% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateX(20px);
+              transform: scale(1.25) translateX(20px);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+  
+
