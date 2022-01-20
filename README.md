@@ -31,7 +31,7 @@ Creating a website for the economic community to achieve their targets with the 
 ## Roadmap
 - [x] Setting Up the repo for the group
 - [x] Resource Gathering
-- [ ] Designing the wireframe
+- [x] Designing the wireframe
 - [ ] Front page development
 - [ ] Sub page develpment
 
