@@ -40,8 +40,7 @@ Creating a website for the economic community to achieve their targets with the 
 ## Contact
 Madawa De Silva - https://github.com/GambitJr  
 Gishen Boraluwa -  
-Rajith Lahiru - https://github.com/Rajithlahiru
-
+Rajith Lahiru - https://github.com/Rajithlahiru  
 Thiwanki Lakshani - https://github.com/tiki985860
 
 
