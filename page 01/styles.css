@@ -151,6 +151,10 @@
         display: block;
         cursor: pointer;
     }
+    .navbar__toggle:hover .bar:nth-child(2){
+        transform: translateX(-8px) ;
+    }
+
     #mobile-menu.is-active .bar:nth-child(2){
         opacity: 0;
     }
