@@ -330,6 +330,19 @@
     }
 }
 
+/* Hero 2 section */
+#goal-8{
+    background-color: white;
+}
+/* #hero-2{
+    color: black;
+}
+#scale__hero-2{
+    color: black;
+ } */
+
+
+
 /* Targets intro section */
 .targets{
     background: white;
@@ -404,5 +417,22 @@
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .targets__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+    .targets h1{
+        font-size: 2.0rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .targets__wrapper{
+        grid-template-columns: 1fr;
+    }
+    .targets h1{
+        font-size: 1.5rem;
+    }
 }
 
