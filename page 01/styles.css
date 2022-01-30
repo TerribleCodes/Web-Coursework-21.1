@@ -343,8 +343,11 @@
 .targets h1{
     font-family: Roboto Condensed;
     margin-bottom: 5rem;
-    font-size: 2.3rem;
+    font-size: 2.9rem;
+    text-decoration: underline;
+
 }
+
 .targets__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -354,7 +357,7 @@
 
 .targets__card{
     margin: 10px;
-    height: 425px;
+    height: 475px;
     width: 300px;
     border-radius: 4px;
     display: flex;
@@ -372,9 +375,10 @@
     text-align: center;
     margin-top: 24px;
     font-size: 17px;
+    font-family: Mukta;
 }
 
-.targets__button{
+.targets__btn{
     display: flex;
     justify-content: center;
     margin-top: 16px;
@@ -401,3 +405,4 @@
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
