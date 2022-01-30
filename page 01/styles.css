@@ -387,7 +387,9 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #a11a3b;
+    background: #7b4397;  
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397); 
+    background: linear-gradient(to right, #dc2430, #7b4397); 
     font-size: 1rem;
 }
 .targets__card button:hover{
