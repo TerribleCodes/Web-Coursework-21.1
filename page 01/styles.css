@@ -65,7 +65,7 @@
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 30px;
     background: #7b4397;  
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397); 
     background: linear-gradient(to right, #dc2430, #7b4397); 
