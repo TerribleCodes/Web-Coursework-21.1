@@ -329,5 +329,73 @@
         margin-top: 1rem;
     }
 }
-  
 
+/* Targets intro section */
+.targets{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+    }
+.targets h1{
+    font-family: Roboto Condensed;
+    margin-bottom: 5rem;
+    font-size: 2.3rem;
+}
+.targets__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.targets__card{
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #1f0e38 0%,#1f0e38);
+    transition: 0.3s ease-in;
+}
+.targets__card h2{
+    text-align: center;
+}
+
+.targets__card p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 17px;
+}
+
+.targets__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.targets__card button{
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #a11a3b;
+    font-size: 1rem;
+}
+.targets__card button:hover{
+    cursor: pointer;
+}
+
+.targets__card:hover{
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
