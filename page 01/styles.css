@@ -547,16 +547,18 @@ table.center {
 }
 
 .targets__card{
-    margin: 10px;
-    height: 475px;
+    margin: 15px;
+    height: 480px;
     width: 300px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    position: relative;
     color: white;
     background-image: linear-gradient(to right, #1f0e38 0%,#1f0e38);
     transition: 0.3s ease-in;
+    padding: 20px;
 }
 .targets__card h2{
     text-align: center;
@@ -570,9 +572,10 @@ table.center {
 }
 
 .targets__btn{
+    bottom: 20px;
     display: flex;
-    justify-content: center;
-    margin-top: 16px;
+    
+    position: absolute;
 
 }
 
