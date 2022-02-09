@@ -354,6 +354,7 @@ table.center {
 .main{
     background-color: #a11a3b;
     padding: 3.3rem 0;
+    /* height: 100vh; */
 }
 .main__container{
     display: grid;
@@ -361,7 +362,7 @@ table.center {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -516,7 +517,8 @@ table.center {
 
 /* Hero 2 section */
 #goal-8{
-    background-color: white;
+    background-color: #1f0e38;
+    /* height: 100vh; */
 }
 /* #hero-2{
     color: black;
@@ -526,8 +528,14 @@ table.center {
  } */
 
 
+/* Hero section 3 */
+#hero3_content h1 p{
+    color: #000000;
+    
+}
 
-/* Targets intro section */
+
+ /* Targets intro section */
 .targets{
     background: white;
     display: flex;
