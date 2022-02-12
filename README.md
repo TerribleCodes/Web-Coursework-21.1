@@ -32,8 +32,8 @@ Creating a website for the economic community to achieve their targets with the 
 - [x] Setting Up the repo for the group
 - [x] Resource Gathering
 - [x] Designing the wireframe
-- [ ] Front page development
-- [ ] Sub page develpment
+- [x] Front page development
+- [x] Sub page develpment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
