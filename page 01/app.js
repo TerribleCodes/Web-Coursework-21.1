@@ -1,5 +1,6 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
+const navLogo = document.querySelector('#navbar__logo')
 
 // Display Mobile Menu
 const mobileMenu = () => {
@@ -7,6 +8,25 @@ const mobileMenu = () => {
     menuLinks.classList.toggle('active');
 };
 menu.addEventListener('click', mobileMenu);
+
+// show active menu when scrolling
+
+const highlightMenu = () => {
+    const elem = document.querySelector('.highlight')
+    const homeMenu = document.querySelector('#home-page')
+    const elem = document.querySelector('#about-page')
+    const elem = document.querySelector('#event-page')
+}
+
+
+
+
+
+
+
+
+
+
 
 //model pf popup js
 

@@ -748,3 +748,24 @@ table.center {
 .fab{
     padding: 1rem;
 }
+
+/* mobile responsive part for footer */
+@media screen and (max-width: 480px) {
+    /* .footer_container{
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+    .footer_link-items{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        
+    }
+
+    .social_media-wrap{
+        width: 100%;
+        display:block ;
+     }
+}
