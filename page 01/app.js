@@ -77,7 +77,7 @@ window.addEventListener('click', highlightMenu)
 
 //model pf popup js
 
-document.getElementById('log_in').addEventListener('click',
+document.getElementById('sign_up_btn').addEventListener('click',
 function(){
     document.querySelector('.bg_model').style.display ='flex';
 }
