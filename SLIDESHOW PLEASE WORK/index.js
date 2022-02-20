@@ -1,4 +1,4 @@
-// Master DOManipulator v2 ------------------------------------------------------------
+//Keep the file seperate. Didn't work with the merge.
 const items = document.querySelectorAll('.item'),
   controls = document.querySelectorAll('.control'),
   headerItems = document.querySelectorAll('.item-header'),
