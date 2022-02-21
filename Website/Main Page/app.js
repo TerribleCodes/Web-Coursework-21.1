@@ -129,4 +129,17 @@ function(){
 }
 );
 
+//admin
+document.getElementById('admin_model').addEventListener('click',
+function(){
+    document.querySelector('.bg_model').style.display ='none';
+    document.querySelector('.bg_model4').style.display ='flex';
+}
+);
+
+document.getElementById('close4').addEventListener('click',
+function(){
+    document.querySelector('.bg_model4').style.display ='none';
+}
+);
 // end of model popup
