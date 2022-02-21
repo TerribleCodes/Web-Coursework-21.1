@@ -591,6 +591,11 @@ table.center {
     font-family: Mukta;
 }
 
+.targets__btn a{
+    color: white;
+    text-decoration: none;
+}
+
 .targets__btn{
     bottom: 20px;
     display: flex;
