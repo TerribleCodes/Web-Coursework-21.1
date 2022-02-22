@@ -413,8 +413,8 @@ table.center {
     align-items: center;
 }
 .kenburns-right{
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     
 } 
 
@@ -482,8 +482,8 @@ table.center {
         justify-content: center;
     }
     .main__img--card{
-        height: 425px;
-        width: 425px;
+        height: 450px;
+        width: 450px;
     }
     .main__content{
         text-align: center;
