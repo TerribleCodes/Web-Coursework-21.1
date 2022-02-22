@@ -189,18 +189,38 @@ When planning your sustainable event, you might consider the following eco-frien
             <ul>
                 <li>
                     <div class="time">
-                        <h2>
-                            2 <br><span>Nov</span>
-                        </h2>
-                    </div>
-                    <div class="details">
-                        <h3>
-                            National capacity building workshop 
-                        </h3>
-                        <p> 
-                            “Applications of Juncao technology and its contribution to the achievement of sustainable agriculture and the sustainable development goals in Zimbabwe”  
-                        </p>
-   
+                        <?php
+                            $servername = "localhost";
+                            $username = "root";
+                            $password = "";
+                            $dbname = "decentworkeconomic";
+
+                            
+                            $conn = new mysqli($servername, $username, $password, $dbname);
+                            
+                            if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                            }
+
+                            $sql = "SELECT date, month, title, description FROM event where EventPart=1";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                            // output data of each row
+                            while($row = $result->fetch_assoc()) {
+                                $date=$row["date"];
+                                $month=$row["month"];
+                                $title=$row["title"];
+                                $des=$row["description"];
+
+                                echo '<h2>',$date,'<br><span>',$month,'</span></h2></div><div class="details"><h3>',$title,'</h3><p>',$des,'</p>';
+                            }
+                            } else {
+                            echo "0 results";
+                            }
+                            $conn->close();
+                            ?>
+                           
                         <a href="https://sdgs.un.org/events/national-capacity-building-workshop-applications-juncao-technology-and-its-contribution">View Details</a>
                     </div>
                     <div style="clear: both;"></div>
@@ -208,17 +228,37 @@ When planning your sustainable event, you might consider the following eco-frien
    
                 <li>
                     <div class="time">
-                        <h2>
-                            15 <br><span>Dec</span>
-                        </h2>
-                    </div>
-                    <div class="details">
-                        <h3>
-                            High-Level Policy Workshop on Mainstreaming Micr
-                        </h3>
-                        <p>
-                            Representing the majority of enterprises, micro-, small and medium-sized enterprises (MSMEs) are important taskforces for employment creation and poverty reduction in The Gambia. 
-                        </p>
+                    <?php
+                            $servername = "localhost";
+                            $username = "root";
+                            $password = "";
+                            $dbname = "decentworkeconomic";
+
+                            
+                            $conn = new mysqli($servername, $username, $password, $dbname);
+                            
+                            if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                            }
+
+                            $sql = "SELECT date, month, title, description FROM event where EventPart=2";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                            // output data of each row
+                            while($row = $result->fetch_assoc()) {
+                                $date=$row["date"];
+                                $month=$row["month"];
+                                $title=$row["title"];
+                                $des=$row["description"];
+
+                                echo '<h2>',$date,'<br><span>',$month,'</span></h2></div><div class="details"><h3>',$title,'</h3><p>',$des,'</p>';
+                            }
+                            } else {
+                            echo "0 results";
+                            }
+                            $conn->close();
+                            ?>
                         <a href="https://sdgs.un.org/events/launch-first-hydromet-gap-report-weather-climate-and-water-services-underpin-sustainable">View Details</a>
                     </div>
                     <div style="clear:both;"></div>
@@ -226,18 +266,37 @@ When planning your sustainable event, you might consider the following eco-frien
    
                 <li>
                     <div class="time">
-                        <h2>
-                            06 <br><span>July</span>
-                        </h2>
-                    </div>
-                    <div class="details">
-                        <h3>
-                            2021 SDGs Learning, Training and Practice
-                        </h3>
-                        <p>Co-organized by the United Nations Department of Economic and Social Affairs. Division for Sustainable Development GoalsA Special Event of the 2021 High-level Political Forum on Sustainable Development under the auspices of ECOSOC
-                             
-                        </p>
-   
+                    <?php
+                            $servername = "localhost";
+                            $username = "root";
+                            $password = "";
+                            $dbname = "decentworkeconomic";
+
+                            
+                            $conn = new mysqli($servername, $username, $password, $dbname);
+                            
+                            if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                            }
+
+                            $sql = "SELECT date, month, title, description FROM event where EventPart=3";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                            // output data of each row
+                            while($row = $result->fetch_assoc()) {
+                                $date=$row["date"];
+                                $month=$row["month"];
+                                $title=$row["title"];
+                                $des=$row["description"];
+
+                                echo '<h2>',$date,'<br><span>',$month,'</span></h2></div><div class="details"><h3>',$title,'</h3><p>',$des,'</p>';
+                            }
+                            } else {
+                            echo "0 results";
+                            }
+                            $conn->close();
+                            ?>
                         <a href="https://sdgs.un.org/events/launch-e-learning-course-harnessing-climate-and-sdgs-synergies-33337">View Details</a>
                     </div>
                     <div style="clear:both;"></div>
