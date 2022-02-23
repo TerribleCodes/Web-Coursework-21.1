@@ -18,7 +18,7 @@
     <!-- create navigation bar -->
     <nav class="navbar">
         <div class="navbar__container">
-            <img src="logo__goal8.png" id="navbar__logo">
+            <img src="Main_logo.png" id="navbar__logo">
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -35,215 +35,18 @@
                     <a href="#hero-3" class="navbar__links" id="event-page">Business</a>
                 </li>
                 <!-- <li class="navbar__item">
-                    <a href="#contacts" class="navbar__links" id="contact-page">Contact</a>
+                    <a href="#contacts" class="navbar__links" id="contact-page">About-us</a>
                 </li> -->
                 <li class="navbar__item">
                     <a href="#targets" class="navbar__links" id="SDG-page">Targets</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="#" class="button" id="sign_up">Sign Up</a>
+                    <a href="Admin_login.html" class="button" id="sign_up">Sign Up</a>
                 </li>
             </ul>
         </div>
     </nav>
     
-    <!--Sign in and Sign up pop up windows edited by Gishen-->
-    <!--model 1 sign in or sign up-->
-    <div class="bg_model">
-        <div class="model_content">
-            <div class="close" id="close">
-                +
-            </div>
-            
-            <form class="form">
-
-                <div class="form-group">
-
-                   
-
-                    <table class="center" id="signin_or_signup_table">
-                        
-                        <tr>
-                            <td>
-                                <p class="s_i" >Sign In</p>
-                                <p class="si_or_su">Do you have an account? Then sign up</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Sign In" id="sign_In_model1" class="form-control_signin"></td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <p class="s_i">Sign Up</p>
-                                <p class="si_or_su" >Are you new to <br> <b>decentworksandeconomicgrowth.com?</b></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Sign Up" id="sign_up_model1" class="form-control_signin"></td>
-                        </tr>
-                        <tr></tr>
-                        <tr></tr>
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Admin" id="admin_model" class="form-control_signin"></td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </form>
-        </div>
-        
-    </div>
-
-    <!--model 2 signuin-->
-    <div class="bg_model2">
-        <div class="model_content2">
-            <div class="close" id="close2">
-                +
-            </div>
-            
-            <form class="form">
-
-                <div class="form-group">
-
-                    <p class="s_i">Sign In</p>
-                    <p class="w_c">welcome back</p>
-
-                    <table class="center" id="signin_table">
-                        <tr>
-                            <td colspan="2"><h5>Email Address</h5></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="email" placeholder="Email Address " class="form-control_signin"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><h5>Password</h5></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="password" placeholder="Password" class="form-control_signin"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a id="f_s_i" href="#">Forgot password</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Sign in" id="sign_up" class="form-control_signin"></td>
-                        </tr>
-                    </table>
-
-                </div>
-                <div class="create-new">
-                        <p class="c_new">New to us?<a id="c_n_s_i" href="#"> create an account</a></p>
-                </div>
-
-            </form>
-        </div>
-        
-    </div>
-    
-    <!--model3 sign up-->
-    <div class="bg_model3">
-        <div class="model_content3">
-            <div class="close" id="close3">
-                +
-            </div>
-            
-            <form class="form">
-
-                <div class="form-group">
-
-                    <p class="s_i">Sign Up</p>
-                    <p class="w_c">Hi welcome to <br><span id="web_name_signup"><b>decentworkandeconomicgrowth.com</b></span></p>
-
-                    
-
-                    <table class="center" id="signup_table" >
-                        <tr>
-                            <td><h5>First Name</h5></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="First Name" class="form-control_sign_up_name"></td>
-                        </tr>
-                        <tr>
-                            <td><h5>Last Name</h5></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="last Name" class="form-control_sign_up_name"></td>
-                        </tr>
-                        <tr>
-                            <td><h5>Email Address</h5></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="email" placeholder="Email Address " class="form-control_sign_up_email"></td>
-                        </tr>
-                        <tr>
-                            <td><h5>Enter a Password</h5></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input  type="password" placeholder="Password" class="form-control_sign_up_pass"></td>
-                            
-                        </tr>
-                        <tr>
-                            <td colspan="2"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Sign up" id="sign_up" class="form-control_sign_up_submit"></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="signin_model3">
-                        <p class="c_new" id="signin_mod3">Already have an account?<a id="c_n_s_i" href="#">Sign in</a></p>
-                </div>
-
-            </form>
-        </div>
-        
-    </div>
-
-    <!--model 4 admin-->
-    <div class="bg_model4">
-        <div class="model_content4">
-            <div class="close" id="close4">
-                +
-            </div>
-            
-            <form class="form">
-
-                <div class="form-group">
-
-                    <p class="s_i">Admin Sign In</p><br>
-
-                    <table class="center" id="signin_table">
-                        <tr>
-                            <td colspan="2"><h5>User Name</h5></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="text" placeholder="User name " class="form-control_signin"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><h5>Password</h5></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="password" placeholder="Password" class="form-control_signin"></td>
-                        </tr>
-                      
-                        <tr>
-                            <td colspan="2"> <input type="submit" value="Sign in" id="sign_up" class="form-control_signin"></td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </form>
-        </div>
-        
-    </div>
-    
-    <!--end of the sign in and sign up part-->
-
     <div id="totop"></div>
     
     <!--Hero section-->
@@ -251,7 +54,7 @@
         <div class="main__container">
             <div class="main__img--container">
                 <div class="main__img--card">
-                    <img src="logo__goal8.png" class="kenburns-right"> 
+                    <img src="main_pic.gif" class="kenburns-right"> 
                 </div>
             </div>
             <div class="main__content">
@@ -426,7 +229,7 @@
             <div class="main__content">
                 <h1>Upcoming Events</h1>
                 <h2>Don't miss Sustainability LIVE 2022</h2>
-                <button class="main__btn" id="sign_up_btn"><a href="..\Events Section\event.html">Explore</a></button>
+                <button class="main__btn" id="sign_up_btn"><a href="Website\Main Page with php\Main_event_page.php">Explore</a></button>
             </div> 
             <div class="main__img--container">
                 <div class="main__img--card" id="card-2">
