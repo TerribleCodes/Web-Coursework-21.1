@@ -10,8 +10,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#special">Special Notes</a></li>
-    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#special">Special Notes (READ!) </a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     
@@ -43,10 +42,10 @@ Creating a website for the economic community to achieve their targets with the 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Special Notes
+## Special
 - After cloning locate the index.html which is the main page. (Web-Coursework-21.1/Website/Main Page with php/index.html)
-- If you encounter any issue while navigating consider checking the project report.
-- <a href="https://github.com/TerribleCodes/Web-Coursework-21.1/graphs/contributors?from=2022-01-02&to=2022-03-03&type=c">Click Here to see the individual contribution</a>
+- If you encounter any issue while navigating please consider checking the project report.
+- <a href="https://github.com/TerribleCodes/Web-Coursework-21.1/graphs/contributors?from=2022-01-02&to=2022-03-03&type=c" target="_blank">Click Here to see the individual contribution on GitHub</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
