@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1 align="center">Web-Coursework-21.1</h1>
-<p align="center">Developing a full functional website related to one of the sustainable development goals. </p>
+<p align="center">Developing a fully functional website related Decent Work and Economic Growth (SDG 8). </p>
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -10,8 +10,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#special">Special Notes</a></li>
+    <li><a href="#contribution">Contribution</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    
   </ol>
 </details>
 
@@ -25,6 +28,7 @@ Creating a website for the economic community to achieve their targets with the 
 * HTML
 * CSS
 * JavaScript
+* PHP
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -34,6 +38,15 @@ Creating a website for the economic community to achieve their targets with the 
 - [x] Designing the wireframe
 - [x] Front page development
 - [x] Sub page develpment
+- [x] Back end development
+- [x] Troubleshooting
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Special Notes
+- After cloning locate the index.html which is the main page. (Web-Coursework-21.1/Website/Main Page with php/index.html)
+- If you encounter any issue while navigating consider checking the project report.
+- <a href="https://github.com/TerribleCodes/Web-Coursework-21.1/graphs/contributors?from=2022-01-02&to=2022-03-03&type=c">Click Here to see the individual contribution</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -43,8 +56,6 @@ Gishen Boraluwa -  https://github.com/GishenCBoraluwa
 Rajith Lahiru - https://github.com/Rajithlahiru  
 Thiwanki Lakshani - https://github.com/tiki985860  
 M.M Siraj  - https://github.com/Zaynsj  
-
-
 
 Project Link: [https://github.com/GambitJr/Web-Coursework-21.1](https://github.com/GambitJr/Web-Coursework-21.1)
 
