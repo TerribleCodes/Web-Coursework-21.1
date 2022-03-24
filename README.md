@@ -4,19 +4,26 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#special-notes">Special Notes (READ!) </a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#special-notes">Special Notes (READ!) </a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     
   </ol>
 </details>
 
+## Special Notes
+- After cloning locate the index.html which is the main page. (Web-Coursework-21.1/Website/Main Page with php/index.html)
+- If you encounter any issue while navigating please consider checking the project report.
+- The Username and the Password for the admin section are "admin" and "admin123". (For testing purposes)
+- <a href="https://github.com/TerribleCodes/Web-Coursework-21.1/graphs/contributors?from=2022-01-02&to=2022-03-03&type=c" target="_blank">Click Here to see the individual contribution on GitHub</a>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## About The Project
 Creating a website for the economic community to achieve their targets with the help of the concept sustainable development is the basic summary of this project. The 8th goal of SDG which is "Decent Work and Economic Growth" is used throughout the project and its contents. 
@@ -42,12 +49,6 @@ Creating a website for the economic community to achieve their targets with the 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Special Notes
-- After cloning locate the index.html which is the main page. (Web-Coursework-21.1/Website/Main Page with php/index.html)
-- If you encounter any issue while navigating please consider checking the project report.
-- <a href="https://github.com/TerribleCodes/Web-Coursework-21.1/graphs/contributors?from=2022-01-02&to=2022-03-03&type=c" target="_blank">Click Here to see the individual contribution on GitHub</a>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 Madawa De Silva - https://github.com/GambitJr  
